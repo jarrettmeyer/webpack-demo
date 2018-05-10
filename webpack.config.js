@@ -17,6 +17,16 @@ module.exports = {
       template: "./templates/index.template.html"
     })
   ],
+  module: {
+    rules: [{
+      test: /\.less$/,
+      use: [
+        { loader: "style-loader" },
+        { loader: "css-loader" },
+        { loader: "less-loader" },
+      ]
+    }]
+  },
   performance: {
     hints: false
   }

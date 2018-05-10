@@ -1,8 +1,13 @@
+"use strict";
+
 // Import statements come first, including third-party libraries and packages that
 // we have written and included in this project.
 import * as _ from "lodash";
 import { addParagraph } from "./addParagraph";
 import { stringifyArray } from "./stringifyArray";
+
+// Load up stylesheets.
+import "../styles/app.less";
 
 // First, grab the body element and add a generic text paragraph.
 let body = document.getElementsByTagName("body")[0];
