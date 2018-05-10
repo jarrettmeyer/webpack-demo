@@ -14,7 +14,7 @@ $ npm install
 
 ## Available Commands
 
-The following commands are available for this demo.
+The following commands are available for this demo. They should work from both the Windows and Mac/Linux command line.
 
 ### npm run build
 
@@ -30,7 +30,7 @@ $ npm run build:dev
 
 ### npm run build:prod
 
-Create a production build. The output will be saved in the `dist/` folder.
+Create a production build. The output will be saved in the `dist/` folder. See the Webpack documentation for details on the differences between development and production build.
 
 ```
 $ npm run build:prod
@@ -38,7 +38,7 @@ $ npm run build:prod
 
 ### npm run start
 
-Run the program. This will use a watch to keep the bundle up to date and refresh your browser window.
+Run the program. This will create a development build of the program, and it will use a watch to keep the bundle up to date and refresh your browser window.
 
 ```
 $ npm run start
